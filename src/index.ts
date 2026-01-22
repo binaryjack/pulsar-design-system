@@ -8,4 +8,6 @@ export * from './tokens';
 export * from './sizes';
 export * from './variants';
 export * from './utility';
+export * from './types/transition-duration.type';
+export * from './types/typography-variant.type';
 

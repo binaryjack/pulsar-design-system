@@ -3,7 +3,7 @@
  * External constant compiled ONCE!
  */
 
-import type { TypographyVariant } from '../../components/enums/typography-variant.type'
+import type { TypographyVariant } from '../types/typography-variant.type'
 
 export const typographyVariantClasses: Record<TypographyVariant, string> = {
   h1: 'text-5xl font-bold leading-tight',

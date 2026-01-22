@@ -1,6 +1,6 @@
 {
   "name": "@pulsar-framework/design-tokens",
-  "version": "0.1.0",
+  "version": "0.7.0-alpha",
   "description": "Framework-agnostic design tokens for the Pulsar ecosystem",
   "type": "module",
   "main": "./dist/index.js",

@@ -6,6 +6,11 @@ dist/
 build/
 *.tsbuildinfo
 
+# Auto-generated files
+art-kit/index.ts
+art-kit/index.d.ts
+art-kit/index.js
+
 # Logs
 *.log
 npm-debug.log*

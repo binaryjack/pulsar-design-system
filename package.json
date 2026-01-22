@@ -14,10 +14,15 @@
     "./tokens": {
       "import": "./dist/tokens/index.js",
       "types": "./dist/tokens/index.d.ts"
+    },
+    "./art-kit": {
+      "import": "./art-kit/index.js",
+      "types": "./art-kit/index.d.ts"
     }
   },
   "scripts": {
-    "build": "tsc",
+    "build": "pnpm build:art-kit && tsc",
+    "build:art-kit": "tsx build/art-kit-generator.ts",
     "build:css": "tsx build/cli.ts ./dist",
     "dev": "tsc --watch",
     "typecheck": "tsc --noEmit",

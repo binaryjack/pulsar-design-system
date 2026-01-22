@@ -2,6 +2,8 @@
 
 Brand assets, logos, and icons for the Pulsar ecosystem.
 
+> ⚠️ **Note**: The `index.ts` file is auto-generated at build time. Do not edit it manually!
+
 ## 📦 Installation
 
 The art-kit is part of `@pulsar/design-tokens`:
@@ -178,3 +180,34 @@ Create a beautiful README header:
 ## 📄 License
 
 Part of the Pulsar ecosystem. See main project license.
+
+---
+
+## 🛠️ For Maintainers
+
+### Adding New Icons
+
+1. Add SVG file to `art-kit/SVG/` with naming convention:
+   - Icons: `icon-{name}.svg` (e.g., `icon-typescript.svg`)
+   - Logos: `pulsar-{variant}.svg` (e.g., `pulsar-logo.svg`)
+
+2. Regenerate the index:
+   ```bash
+   pnpm build:art-kit
+   ```
+
+3. The `index.ts` file is automatically generated with:
+   - All icon exports
+   - Type-safe constants
+   - Helper functions
+   - TypeScript types
+
+### Generator Details
+
+The art-kit uses a build-time generator ([build/art-kit-generator.ts](../build/art-kit-generator.ts)) that:
+- Scans `art-kit/SVG/` directory
+- Converts filenames to camelCase constants
+- Generates TypeScript with full type safety
+- Runs automatically before build (`pnpm build`)
+
+**No manual maintenance required!** Just add/remove SVG files and rebuild.

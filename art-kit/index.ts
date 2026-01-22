@@ -2,6 +2,13 @@
  * Pulsar Art Kit
  * Brand assets, logos, and icons for the Pulsar ecosystem
  * 
+ * ⚠️ AUTO-GENERATED FILE - DO NOT EDIT MANUALLY
+ * This file is generated at build time by build/art-kit-generator.ts
+ * 
+ * To add/remove icons:
+ * 1. Add/remove SVG files in art-kit/SVG/
+ * 2. Run: pnpm run build:art-kit
+ * 
  * Usage in code:
  *   import { PULSAR_LOGO_SVG, ICONS } from '@pulsar/design-tokens/art-kit'
  * 
@@ -17,14 +24,14 @@ const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/binaryjack/pulsar-des
 
 export const PULSAR_ICON_SVG = `${GITHUB_RAW_BASE}/SVG/pulsar-icon.svg`;
 export const PULSAR_LOGO_SVG = `${GITHUB_RAW_BASE}/SVG/pulsar-logo.svg`;
-export const PULSAR_LOGO_NAME_SVG = `${GITHUB_RAW_BASE}/SVG/pulsar-logo-name.svg`;
+export const PULSAR_LOGO_WITH_NAME_SVG = `${GITHUB_RAW_BASE}/SVG/pulsar-logo-name.svg`;
 
 // Logo variations by resolution
 export const PULSAR_LOGOS = {
   svg: {
     icon: PULSAR_ICON_SVG,
     logo: PULSAR_LOGO_SVG,
-    logoWithName: PULSAR_LOGO_NAME_SVG,
+    logoWithName: PULSAR_LOGO_WITH_NAME_SVG,
   },
   png: {
     '0.5x': {
@@ -71,7 +78,7 @@ export const PULSAR_LOGOS = {
 };
 
 // ============================================
-// Icon Set
+// Icon Set (63 icons)
 // ============================================
 
 export const ICONS = {

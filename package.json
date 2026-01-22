@@ -1,7 +1,7 @@
 {
-  "name": "@pulsar/design-tokens",
+  "name": "@pulsar-framework/design-tokens",
   "version": "0.1.0",
-  "description": "Framework-agnostic design tokens for Pulsar ecosystem",
+  "description": "Framework-agnostic design tokens for the Pulsar ecosystem",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -30,11 +30,11 @@
     "prepublishOnly": "pnpm build && pnpm build:css"
   },
   "keywords": [
-    "design-tokens",
+    "pulsar",
     "design-system",
+    "design-tokens",
     "css-variables",
-    "typescript",
-    "pulsar"
+    "theming"
   ],
   "devDependencies": {
     "typescript": "^5.9.3",
@@ -43,5 +43,19 @@
   "files": [
     "dist",
     "README.md"
-  ]
+  ],
+  "author": "Tadeo Piana <https://www.linkedin.com/in/tadeopiana/>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binaryjack/pulsar-design-system.git"
+  },
+  "homepage": "https://github.com/binaryjack/pulsar-design-system#readme",
+  "bugs": {
+    "url": "https://github.com/binaryjack/pulsar-design-system/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

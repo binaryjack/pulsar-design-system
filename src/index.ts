@@ -4,10 +4,10 @@
  * Extracted from @atomos/prime for reusability
  */
 
-export * from './tokens';
 export * from './sizes';
-export * from './variants';
-export * from './utility';
+export * from './tokens';
 export * from './types/transition-duration.type';
 export * from './types/typography-variant.type';
+export * from './utility';
+export * from './variants';
 

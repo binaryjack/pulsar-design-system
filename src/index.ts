@@ -4,13 +4,13 @@
  * Extracted from @atomos/prime for reusability
  */
 
-export * from './sizes';
-export * from './tokens';
-export * from './types/transition-duration.type';
-export * from './types/typography-variant.type';
-export * from './utility';
-export * from './variants';
+export * from './sizes'
+export * from './tokens'
+export * from './types/transition-duration.type'
+export * from './types/typography-variant.type'
+export * from './utility'
+export * from './variants'
 
 // Export art-kit (brand assets and icons)
-export * from '../art-kit';
+export * from '../art-kit'
 

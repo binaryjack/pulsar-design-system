@@ -5,7 +5,7 @@
  */
 
 import { readdirSync, writeFileSync } from 'fs';
-import { join, basename } from 'path';
+import { join } from 'path';
 
 const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit';
 const ART_KIT_DIR = join(process.cwd(), 'art-kit');

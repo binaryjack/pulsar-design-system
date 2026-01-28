@@ -10,7 +10,7 @@
  * 2. Run: pnpm run build:art-kit
  * 
  * Usage in code:
- *   import { PULSAR_LOGO_SVG, ICONS } from '@pulsar/design-tokens/art-kit'
+ *   import { PULSAR_LOGO_SVG, ICONS } from '@pulsar-framework/design-tokens/art-kit'
  * 
  * Usage in Markdown:
  *   ![Pulsar Logo](https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/pulsar-logo.svg)

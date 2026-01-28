@@ -10,7 +10,7 @@ import {
     spacingTokens,
     transitionTokens,
     typographyTokens
-} from '@pulsar/design-tokens'
+} from '@pulsar-framework/design-tokens'
 
 export interface CSSVariableOptions {
     /**
@@ -71,7 +71,7 @@ export class CSSVariableGenerator {
     private generateHeader(): string {
         return `/**
  * Pulsar Design System - CSS Variables
- * Auto-generated from @pulsar/design-tokens
+ * Auto-generated from @pulsar-framework/design-tokens
  * Do not edit manually
  */`
     }

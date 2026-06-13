@@ -7,7 +7,7 @@
 import { readdirSync, writeFileSync } from 'fs';
 import { join } from 'path';
 
-const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit';
+const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit';
 const ART_KIT_DIR = join(process.cwd(), 'art-kit');
 const SVG_DIR = join(ART_KIT_DIR, 'SVG');
 const OUTPUT_FILE = join(ART_KIT_DIR, 'index.ts');
@@ -154,13 +154,13 @@ function generateTypeScriptCode(logos: LogoEntry[], icons: IconEntry[]): string 
  * 2. Run: pnpm run build:art-kit
  * 
  * Usage in code:
- *   import { PULSAR_LOGO_SVG, ICONS } from '@pulsar-framework/design-tokens/art-kit'
+ *   import { PULSAR_LOGO_SVG, ICONS } from '@synetics/design-tokens/art-kit'
  * 
  * Usage in Markdown:
- *   ![Pulsar Logo](https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/pulsar-logo.svg)
+ *   ![Pulsar Logo](https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo.svg)
  */
 
-const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit';
+const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit';
 
 // ============================================
 // Brand Logos

@@ -1,5 +1,5 @@
 {
-  "name": "@pulsar-framework/design-tokens",
+  "name": "@synetics/design-tokens",
   "version": "0.7.0-alpha",
   "description": "Framework-agnostic design tokens for the Pulsar ecosystem",
   "type": "module",
@@ -48,11 +48,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/binaryjack/pulsar-design-system.git"
+    "url": "https://github.com/binaryjack/synetics-design-system.git"
   },
-  "homepage": "https://github.com/binaryjack/pulsar-design-system#readme",
+  "homepage": "https://github.com/binaryjack/synetics-design-system#readme",
   "bugs": {
-    "url": "https://github.com/binaryjack/pulsar-design-system/issues"
+    "url": "https://github.com/binaryjack/synetics-design-system/issues"
   },
   "publishConfig": {
     "access": "public",

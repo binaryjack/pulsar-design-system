@@ -39,14 +39,14 @@ All assets are available via GitHub raw URLs. No need to copy files to your proj
 
 #### Logos
 
-<img src="https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/pulsar-icon.svg" alt="Pulsar Icon" width="64" />
-<img src="https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/pulsar-logo.svg" alt="Pulsar Logo" width="200" />
-<img src="https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/pulsar-logo-name.svg" alt="Pulsar Logo with Name" width="300" />
+<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-icon.svg" alt="Pulsar Icon" width="64" />
+<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo.svg" alt="Pulsar Logo" width="200" />
+<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo-name.svg" alt="Pulsar Logo with Name" width="300" />
 
 ```markdown
-![Pulsar Icon](https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/pulsar-icon.svg)
-![Pulsar Logo](https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/pulsar-logo.svg)
-![Pulsar Logo with Name](https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/pulsar-logo-name.svg)
+![Pulsar Icon](https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-icon.svg)
+![Pulsar Logo](https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo.svg)
+![Pulsar Logo with Name](https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo-name.svg)
 ```
 
 #### Icons
@@ -67,15 +67,15 @@ Available icons (69 total):
 **Example usage:**
 
 ```markdown
-![TypeScript](https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/icon-typescript.svg)
-![React](https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/icon-react.svg)
-![Success](https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/icon-success.svg)
+![TypeScript](https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/icon-typescript.svg)
+![React](https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/icon-react.svg)
+![Success](https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/icon-success.svg)
 ```
 
 With custom size:
 
 ```html
-<img src="https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/icon-typescript.svg" width="24" alt="TypeScript" />
+<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/icon-typescript.svg" width="24" alt="TypeScript" />
 ```
 
 ## 📁 Available Formats
@@ -101,7 +101,7 @@ Multiple resolutions available:
 
 All assets follow this pattern:
 ```
-https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/{format}/{filename}
+https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/{format}/{filename}
 ```
 
 **Examples:**
@@ -158,13 +158,13 @@ Create a beautiful README header:
 
 ```markdown
 <p align="center">
-  <img src="https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/pulsar-logo-name.svg" width="400" alt="Pulsar.dev" />
+  <img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo-name.svg" width="400" alt="Pulsar.dev" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/icon-typescript.svg" width="20" alt="TypeScript" />
-  <img src="https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/icon-react.svg" width="20" alt="React" />
-  <img src="https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/icon-vite.svg" width="20" alt="Vite" />
+  <img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/icon-typescript.svg" width="20" alt="TypeScript" />
+  <img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/icon-react.svg" width="20" alt="React" />
+  <img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/icon-vite.svg" width="20" alt="Vite" />
 </p>
 ```
 

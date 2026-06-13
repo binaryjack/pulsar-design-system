@@ -1,4 +1,4 @@
-# Contributing to pulsar-design-system
+# Contributing to synetics-design-system
 
 Thank you for your interest in contributing! Please see the [main contributing guide](../../CONTRIBUTING.md) for general guidelines.
 
@@ -12,13 +12,13 @@ cd ../..
 pnpm install
 
 # Build this package
-pnpm --filter @pulsar-framework/design-system build
+pnpm --filter @synetics/design-system build
 
 # Run tests
-pnpm --filter @pulsar-framework/design-system test
+pnpm --filter @synetics/design-system test
 
 # Watch mode
-pnpm --filter @pulsar-framework/design-system dev
+pnpm --filter @synetics/design-system dev
 ```
 
 ### Architecture
@@ -30,9 +30,9 @@ This package is part of the Visual Schema Builder monorepo. For detailed archite
 Please ensure all tests pass before submitting a pull request:
 
 ```bash
-pnpm --filter @pulsar-framework/design-system test
-pnpm --filter @pulsar-framework/design-system typecheck
-pnpm --filter @pulsar-framework/design-system lint
+pnpm --filter @synetics/design-system test
+pnpm --filter @synetics/design-system typecheck
+pnpm --filter @synetics/design-system lint
 ```
 
 ### Documentation

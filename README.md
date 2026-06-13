@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/binaryjack/pulsar-design-system/main/art-kit/SVG/pulsar-logo.svg" alt="Pulsar" width="400"/>
+<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo.svg" alt="Pulsar" width="400"/>
 
 # @pulsar/design-tokens
 
@@ -165,12 +165,12 @@ import type { IColorTokens, ISpacingTokens, IconName } from '@pulsar/design-toke
 
 | Package | Description | Status |
 |---------|-------------|--------|
-| [pulsar.dev](https://github.com/binaryjack/pulsar.dev) | Core framework with signal-based reactivity | ✅ Active |
-| [@pulsar/ui](https://github.com/binaryjack/pulsar-ui.dev) | UI component library | ✅ Active |
-| [@pulsar/design-tokens](https://github.com/binaryjack/pulsar-design-system) | Design tokens & art-kit | ✅ Active |
-| [@pulsar/transformer](https://github.com/binaryjack/pulsar-transformer) | JSX to DOM compiler | ✅ Active |
-| [@pulsar/vite-plugin](https://github.com/binaryjack/pulsar-vite-plugin) | Vite integration | ✅ Active |
-| [@pulsar/demo](https://github.com/binaryjack/pulsar-demo) | Example applications | ✅ Active |
+| [synetics.dev](https://github.com/binaryjack/synetics.dev) | Core framework with signal-based reactivity | ✅ Active |
+| [@pulsar/ui](https://github.com/binaryjack/synetics-ui.dev) | UI component library | ✅ Active |
+| [@pulsar/design-tokens](https://github.com/binaryjack/synetics-design-system) | Design tokens & art-kit | ✅ Active |
+| [@pulsar/transformer](https://github.com/binaryjack/synetics-transformer) | JSX to DOM compiler | ✅ Active |
+| [@pulsar/vite-plugin](https://github.com/binaryjack/synetics-vite-plugin) | Vite integration | ✅ Active |
+| [@pulsar/demo](https://github.com/binaryjack/synetics-demo) | Example applications | ✅ Active |
 
 ## Contributing
 
@@ -178,8 +178,8 @@ We welcome contributions! To get started:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/binaryjack/pulsar-design-system.git
-   cd pulsar-design-system
+   git clone https://github.com/binaryjack/synetics-design-system.git
+   cd synetics-design-system
    ```
 
 2. **Install dependencies**
@@ -212,7 +212,7 @@ We welcome contributions! To get started:
 
 ## License
 
-MIT License - Copyright (c) 2026 Pulsar Framework
+MIT License - Copyright (c) 2026 Synetics framework
 
 See [LICENSE](./LICENSE) file for details.
 

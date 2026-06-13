@@ -66,7 +66,7 @@ pulsar-file-icons/
 {
   "name": "pulsar-file-icons",
   "displayName": "Pulsar File Icons",
-  "description": "File icons for Pulsar framework files",
+  "description": "File icons for Synetics framework files",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.80.0"

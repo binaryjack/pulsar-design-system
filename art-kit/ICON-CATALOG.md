@@ -1,6 +1,6 @@
 # Pulsar Art Kit - Icon Catalog
 
-Complete icon set for the Pulsar framework with consistent blue gradient theme (#4ac7ee → #263b96).
+Complete icon set for the Synetics framework with consistent blue gradient theme (#4ac7ee → #263b96).
 
 ## 📦 Categories
 

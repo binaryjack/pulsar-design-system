@@ -1,15 +1,15 @@
-# Pulsar Art Kit
+# Synetics Art Kit
 
-Brand assets, logos, and icons for the Pulsar ecosystem.
+Brand assets, logos, and icons for the Synetics ecosystem.
 
 > ⚠️ **Note**: The `index.ts` file is auto-generated at build time. Do not edit it manually!
 
 ## 📦 Installation
 
-The art-kit is part of `@pulsar/design-tokens`:
+The art-kit is part of `@synetics/design-tokens`:
 
 ```bash
-pnpm add @pulsar/design-tokens
+pnpm add @synetics/design-tokens
 ```
 
 ## 🎨 Usage
@@ -22,14 +22,14 @@ import {
   ICONS,
   markdownLogo,
   markdownIcon 
-} from '@pulsar/design-tokens/art-kit'
+} from '@synetics/design-tokens/art-kit'
 
 // Use in your app
 const logoUrl = PULSAR_LOGO_SVG
 const saveIcon = ICONS.save
 
 // Generate markdown
-const logoMd = markdownLogo('logo', 'Pulsar Logo', 200)
+const logoMd = markdownLogo('logo', 'Synetics Logo', 200)
 const iconMd = markdownIcon('typescript', 'TypeScript', 24)
 ```
 
@@ -39,14 +39,14 @@ All assets are available via GitHub raw URLs. No need to copy files to your proj
 
 #### Logos
 
-<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-icon.svg" alt="Pulsar Icon" width="64" />
-<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo.svg" alt="Pulsar Logo" width="200" />
-<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo-name.svg" alt="Pulsar Logo with Name" width="300" />
+<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-icon.svg" alt="Synetics Icon" width="64" />
+<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo.svg" alt="Synetics Logo" width="200" />
+<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo-name.svg" alt="Synetics Logo with Name" width="300" />
 
 ```markdown
-![Pulsar Icon](https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-icon.svg)
-![Pulsar Logo](https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo.svg)
-![Pulsar Logo with Name](https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo-name.svg)
+![Synetics Icon](https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-icon.svg)
+![Synetics Logo](https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo.svg)
+![Synetics Logo with Name](https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo-name.svg)
 ```
 
 #### Icons
@@ -112,8 +112,8 @@ https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit
 
 ### Constants
 
-- `PULSAR_ICON_SVG` - Pulsar icon (just the symbol)
-- `PULSAR_LOGO_SVG` - Pulsar logo (symbol + PULSAR text)
+- `PULSAR_ICON_SVG` - Synetics icon (just the symbol)
+- `PULSAR_LOGO_SVG` - Synetics logo (symbol + PULSAR text)
 - `PULSAR_LOGO_NAME_SVG` - Full logo with PULSAR.DEV text
 - `PULSAR_LOGOS` - Object with all logo variations
 - `ICONS` - Object with all icon URLs (69 icons)
@@ -121,11 +121,11 @@ https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit
 ### Functions
 
 #### `markdownLogo(variant, altText, width?)`
-Generate markdown/HTML for Pulsar logo.
+Generate markdown/HTML for Synetics logo.
 
 ```typescript
-markdownLogo('logo', 'Pulsar Logo', 200)
-// Returns: '<img src="..." alt="Pulsar Logo" width="200" />'
+markdownLogo('logo', 'Synetics Logo', 200)
+// Returns: '<img src="..." alt="Synetics Logo" width="200" />'
 ```
 
 #### `markdownIcon(iconName, altText?, width?)`
@@ -158,8 +158,12 @@ Create a beautiful README header:
 
 ```markdown
 <p align="center">
-  <img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo-name.svg" width="400" alt="Pulsar.dev" />
+  <img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo-name.svg" width="400" alt="Synetics.dev" />
 </p>
+
+> ⚠️ **REBRANDING & DEPRECATION NOTICE**  
+> **Pulsar is now Synetics.** The original `pulsar-framework` packages have been officially deprecated. Please use the new `@synetics/*` namespace for all future development.
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/icon-typescript.svg" width="20" alt="TypeScript" />
@@ -179,7 +183,7 @@ Create a beautiful README header:
 
 ## 📄 License
 
-Part of the Pulsar ecosystem. See main project license.
+Part of the Synetics ecosystem. See main project license.
 
 ---
 

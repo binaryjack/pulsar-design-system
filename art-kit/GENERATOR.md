@@ -56,7 +56,7 @@ pnpm build:art-kit
 
 The icon is now available as:
 ```typescript
-import { ICONS } from '@pulsar/design-tokens/art-kit'
+import { ICONS } from '@synetics/design-tokens/art-kit'
 
 ICONS.docker  // ✅ Type-safe!
 ```

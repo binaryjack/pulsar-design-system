@@ -1,4 +1,4 @@
-# Pulsar Art Kit - Icon Catalog
+# Synetics Art Kit - Icon Catalog
 
 Complete icon set for the Synetics framework with consistent blue gradient theme (#4ac7ee → #263b96).
 
@@ -99,7 +99,7 @@ Complete icon set for the Synetics framework with consistent blue gradient theme
 
 ## 🎨 Design System
 
-All icons follow Pulsar's design principles:
+All icons follow Synetics's design principles:
 
 - **Gradient**: Linear gradient from #4ac7ee (cyan) to #263b96 (deep blue)
 - **Stroke Width**: Consistent 6-8px for main elements
@@ -113,7 +113,7 @@ All icons follow Pulsar's design principles:
 
 ```html
 <img
-  src="./packages/pulsar/art-kit/SVG/icon-reactivity.svg"
+  src="./packages/synetics.dev/art-kit/SVG/icon-reactivity.svg"
   width="48"
   height="48"
   alt="Reactivity"
@@ -123,7 +123,7 @@ All icons follow Pulsar's design principles:
 ### In TSX/JSX
 
 ```tsx
-import ReactivityIcon from './packages/pulsar/art-kit/SVG/icon-reactivity.svg';
+import ReactivityIcon from './packages/synetics.dev/art-kit/SVG/icon-reactivity.svg';
 
 function Feature() {
   return <img src={ReactivityIcon} alt="Fine-grained reactivity" />;
@@ -157,7 +157,7 @@ Each SVG uses gradients defined in `<defs>` with unique IDs, allowing easy color
 
 ## 🚀 VS Code Integration
 
-To use the Pulsar icon for `.tsx` files in VS Code:
+To use the Synetics icon for `.tsx` files in VS Code:
 
 1. Install a file icon theme extension (e.g., Material Icon Theme)
 2. Configure in `.vscode/settings.json`:
@@ -165,11 +165,11 @@ To use the Pulsar icon for `.tsx` files in VS Code:
 ```json
 {
   "material-icon-theme.files.associations": {
-    "*.pulsar.tsx": "../../packages/pulsar/art-kit/SVG/pulsar-icon"
+    "*.pulsar.tsx": "../../packages/synetics.dev/art-kit/SVG/pulsar-icon"
   }
 }
 ```
 
 ## 📊 Total Icons
 
-**66 icons** across 9 categories, providing comprehensive visual language for Pulsar-based applications.
+**66 icons** across 9 categories, providing comprehensive visual language for Synetics-based applications.

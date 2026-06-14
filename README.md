@@ -1,8 +1,8 @@
-<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo.svg" alt="Pulsar" width="400"/>
+<img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo.svg" alt="Synetics" width="400"/>
 
-# @pulsar/design-tokens
+# @synetics/design-tokens
 
-Framework-agnostic design tokens and brand assets for the Pulsar ecosystem.
+Framework-agnostic design tokens and brand assets for the Synetics ecosystem.
 
 <p align="center">
   <strong><a href="https://www.linkedin.com/in/tadeopiana/">follow me</a></strong>
@@ -23,7 +23,7 @@ Framework-agnostic design tokens and brand assets for the Pulsar ecosystem.
 ## Installation
 
 ```bash
-pnpm add @pulsar/design-tokens
+pnpm add @synetics/design-tokens
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ import {
   shadowTokens,
   borderRadiusTokens,
   transitionTokens
-} from '@pulsar/design-tokens'
+} from '@synetics/design-tokens'
 
 // Use in components
 const buttonColor = colorTokens.primary[500]
@@ -49,7 +49,7 @@ const fontSize = typographyTokens.fontSize.base
 ### Art-Kit (Logos & Icons)
 
 ```typescript
-import { PULSAR_LOGO_SVG, ICONS } from '@pulsar/design-tokens/art-kit'
+import { PULSAR_LOGO_SVG, ICONS } from '@synetics/design-tokens/art-kit'
 
 // Use logos
 const logo = PULSAR_LOGO_SVG
@@ -60,10 +60,10 @@ const reactivityIcon = ICONS.reactivity
 const saveIcon = ICONS.save
 
 // Generate markdown
-import { markdownLogo, markdownIcon } from '@pulsar/design-tokens/art-kit'
+import { markdownLogo, markdownIcon } from '@synetics/design-tokens/art-kit'
 
-const logoMd = markdownLogo('logo', 'Pulsar Logo', 200)
-// '<img src="..." alt="Pulsar Logo" width="200" />'
+const logoMd = markdownLogo('logo', 'Synetics Logo', 200)
+// '<img src="..." alt="Synetics Logo" width="200" />'
 
 const iconMd = markdownIcon('typescript', 'TypeScript', 24)
 // '<img src="..." alt="TypeScript" width="24" />'
@@ -137,7 +137,7 @@ The `index.ts` file is automatically generated with full type safety. See [art-k
 All tokens and art-kit assets are fully typed with readonly interfaces.
 
 ```typescript
-import type { IColorTokens, ISpacingTokens, IconName } from '@pulsar/design-tokens'
+import type { IColorTokens, ISpacingTokens, IconName } from '@synetics/design-tokens'
 ```
 
 ## Roadmap
@@ -161,16 +161,16 @@ import type { IColorTokens, ISpacingTokens, IconName } from '@pulsar/design-toke
 - Figma design tokens integration
 - Additional resolution formats for art-kit
 
-## Pulsar Ecosystem
+## Synetics Ecosystem
 
 | Package | Description | Status |
 |---------|-------------|--------|
 | [synetics.dev](https://github.com/binaryjack/synetics.dev) | Core framework with signal-based reactivity | ✅ Active |
-| [@pulsar/ui](https://github.com/binaryjack/synetics-ui.dev) | UI component library | ✅ Active |
-| [@pulsar/design-tokens](https://github.com/binaryjack/synetics-design-system) | Design tokens & art-kit | ✅ Active |
-| [@pulsar/transformer](https://github.com/binaryjack/synetics-transformer) | JSX to DOM compiler | ✅ Active |
-| [@pulsar/vite-plugin](https://github.com/binaryjack/synetics-vite-plugin) | Vite integration | ✅ Active |
-| [@pulsar/demo](https://github.com/binaryjack/synetics-demo) | Example applications | ✅ Active |
+| [@synetics/ui](https://github.com/binaryjack/synetics-ui.dev) | UI component library | ✅ Active |
+| [@synetics/design-tokens](https://github.com/binaryjack/synetics-design-system) | Design tokens & art-kit | ✅ Active |
+| [@synetics/transformer](https://github.com/binaryjack/synetics-transformer) | JSX to DOM compiler | ✅ Active |
+| [@synetics/vite-plugin](https://github.com/binaryjack/synetics-vite-plugin) | Vite integration | ✅ Active |
+| [@synetics/demo](https://github.com/binaryjack/synetics-demo) | Example applications | ✅ Active |
 
 ## Contributing
 
@@ -218,4 +218,4 @@ See [LICENSE](./LICENSE) file for details.
 
 ---
 
-**Connect:** [LinkedIn](https://www.linkedin.com/in/tadeopiana/) • **Explore:** [Pulsar Ecosystem](#pulsar-ecosystem)
+**Connect:** [LinkedIn](https://www.linkedin.com/in/tadeopiana/) • **Explore:** [Synetics Ecosystem](#pulsar-ecosystem)

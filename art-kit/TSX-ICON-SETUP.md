@@ -1,6 +1,6 @@
-# Making TSX Files Use Pulsar Icon in VS Code
+# Making TSX Files Use Synetics Icon in VS Code
 
-There are several approaches to associate Pulsar's icon with `.tsx` files:
+There are several approaches to associate Synetics's icon with `.tsx` files:
 
 ## Option 1: File Icon Theme Extension (Recommended)
 
@@ -17,8 +17,8 @@ There are several approaches to associate Pulsar's icon with `.tsx` files:
    {
      "workbench.iconTheme": "material-icon-theme",
      "material-icon-theme.files.associations": {
-       "*.pulsar.tsx": "../../packages/pulsar/art-kit/SVG/pulsar-icon",
-       "*.tsx": "../../packages/pulsar/art-kit/SVG/pulsar-icon"
+       "*.pulsar.tsx": "../../packages/synetics.dev/art-kit/SVG/pulsar-icon",
+       "*.tsx": "../../packages/synetics.dev/art-kit/SVG/pulsar-icon"
      }
    }
    ```
@@ -65,7 +65,7 @@ pulsar-file-icons/
 ```json
 {
   "name": "pulsar-file-icons",
-  "displayName": "Pulsar File Icons",
+  "displayName": "Synetics File Icons",
   "description": "File icons for Synetics framework files",
   "version": "0.1.0",
   "engines": {
@@ -75,7 +75,7 @@ pulsar-file-icons/
     "iconThemes": [
       {
         "id": "pulsar-icons",
-        "label": "Pulsar Icons",
+        "label": "Synetics Icons",
         "path": "./fileicons/pulsar-icon-theme.json"
       }
     ]
@@ -115,7 +115,7 @@ Use a naming convention and configure icon theme to recognize it:
 
 **File Naming**:
 
-- `MyComponent.pulsar.tsx` - Will use Pulsar icon
+- `MyComponent.pulsar.tsx` - Will use Synetics icon
 - `MyComponent.tsx` - Will use default TSX icon
 
 **Configuration**:
@@ -136,7 +136,7 @@ For this monorepo specifically, configure per-folder:
 {
   "material-icon-theme.folders.associations": {
     "pulsar": "pulsar-icon",
-    "packages/pulsar": "pulsar-icon"
+    "packages/synetics.dev": "pulsar-icon"
   },
   "material-icon-theme.files.associations": {
     "*.tsx": "pulsar" // All .tsx in workspace
@@ -165,4 +165,4 @@ To activate:
 2. Type "File Icon Theme"
 3. Select "Material Icon Theme"
 
-Your `.tsx` files in Pulsar packages will now show the Pulsar icon! 🎨
+Your `.tsx` files in Synetics packages will now show the Synetics icon! 🎨
